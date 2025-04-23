@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bliss Resort</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="primary.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header" id="home">
+      <a href="#" class="logo">Bliss Resort Hotel</a>
+      <div class="navbar hidden">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#BOOKINGS">Bookings</a>
+        <a href="#contact us">Contact Us</a>
+      </div>
+      <input
+        hidden=""
+        class="check-icon"
+        id="check-icon"
+        name="check-icon"
+        type="checkbox"
+      />
+      <label class="icon-menu" for="check-icon">
+        <div class="bar bar--1"></div>
+        <div class="bar bar--2"></div>
+        <div class="bar bar--3"></div>
+      </label>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="images/image m.jpg" style="width: 100%" alt="" />
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="images/image d.jpg" style="width: 100%" alt="" />
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="images/outside.jpg" style="width: 100%" alt="" />
+        <div class="text"></div>
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="about" id="about">
+      <h1>Welcome to Bliss Resort Hotel!</h1>
+      <img src="images/bliss logo.png" alt="" height="90px" />
+      <div class="content">
+        <p>
+          Nestled in the heart of the coastal beaches , of Mombasa County, Bliss Resort Hotel is a
+          haven of tranquility and luxury, offering you an escape from the
+          hustle and bustle of city life. Our hotel boasts several fully
+          furnished rooms, each designed with your comfort in mind.
+          <br />
+          When it comes to pampering our guests, our room service is second to
+          none. Our dedicated staff is always ready to assist you with any
+          request, ensuring your stay is as comfortable as possible. Whether
+          it's a late-night snack or a rejuvenating cup of coffee, we are here
+          to cater to your needs.
+          <br />
+          <br />
+          Experience the best staycation alongside the coastal beaches  at Bliss Resort Hotel – where luxury meets
+          hospitality.
+        </p>
+        <img src="images/outside.jpg" alt="" />
+      </div>
+    </div>
+    <h1>AVAILABLE ACCOMODATIONS</h1>
+    <div class="room-section" id="rooms">
+      <div class="room-card">
+        <img src="images/standardroom.png" alt="Room 1" />
+        <div class="room-info">
+          <h2>Room 1</h2>
+          <p>
+            This room offers a beautiful view of the city with a king-sized bed
+            and modern amenities.
+          </p>
+          <div class="star-rating">★★★★</div>
+        </div>
+      </div>
+      <div class="room-card">
+        <img src="images/Penthouse.png" alt="Room 2" />
+        <div class="room-info">
+          <h2>Room 2</h2>
+          <p>
+            This room is perfect for a family, with two queen beds and a
+            spacious bathroom.
+          </p>
+          <div class="star-rating">★★★★★</div>
+        </div>
+      </div>
+      <div class="room-card">
+        <img src="images/image room.png" alt="Room 3" />
+        <div class="room-info">
+          <h2>Room 3</h2>
+          <p>
+            This suite offers a separate living area, a king bed, and a
+            luxurious bathroom.
+          </p>
+          <div class="star-rating">★★★★</div>
+        </div>
+      </div>
+      <div class="room-card">
+        <img src="images/Executive Seaview.jpg" alt="Room 4" />
+        <div class="room-info">
+          <h2>Room 4</h2>
+          <p>
+            This room features two twin beds, perfect for friends traveling
+            together.
+          </p>
+          <div class="star-rating">★★★★★</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="room-pricing" id="pricing">
+      <h5>Room Pricing</h5>
+      <div class="pricing-category">
+        <h3>Single Occupancy</h3>
+        <p>Room without Breakfast: Ksh 1500 per night</p>
+        <p>Room with Breakfast: Ksh 3000 per night</p>
+      </div>
+      <div class="pricing-category">
+        <h3>Driver's Accommodation</h3>
+        <p>Room without Breakfast: Ksh 1500 per night</p>
+      </div>
+      <div class="pricing-category">
+        <h3>Double Occupancy</h3>
+        <p>Room without Breakfast: Ksh 3500 per night (for two people)</p>
+        <p>Room with Breakfast: Ksh 5000 per night (for two people)</p>
+      </div>
+      <div class="pricing-category">
+        <h3>Family Accommodation</h3>
+        <p>
+          Family rooms available for two adults and two children. Children share
+          a bed. Each room includes a hot shower.
+        </p>
+      </div>
+    </section>
+    <p class="inquiries">
+      For any other inquiries, kindly reach out to our customer support.
+    </p>
+
+    <section class="booking-section" id="BOOKINGS">
+      <!-- <div class="image-booking-holder">
+      <img src="images/outside.jpg" alt="book image">
+    </div> -->
+      <div class="form-booking-holder">
+        <form class="form-control booking-form">
+          <div class="mb-3">
+            <label for="">Full Name</label>
+            <input
+              class="form-control data_input"
+              name="name"
+              type="text"
+              aria-label="default input example"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control data_input"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="number" name="phone" class="form-control data_input" />
+          </div>
+          <div class="date-divider mb-3">
+            <div class="mb-3">
+              <label class="form-label">Check in date</label>
+              <input
+                type="date"
+                name="check_in_date"
+                class="form-control data_input"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Check out date</label>
+              <input
+                type="date"
+                name="check_out_date"
+                class="form-control data_input"
+              />
+            </div>
+          </div>
+
+          <div class="date-divider mb-3">
+            <div class="mb-3">
+              <label class="form-label">Number of kids</label>
+              <input
+                type="number"
+                name="number_of_kids"
+                class="form-control data_input"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Number of adults</label>
+              <input
+                type="number"
+                name="number_of_adults"
+                class="form-control data_input"
+              />
+            </div>
+          </div>
+
+          <button type="button" class="book-button">Book</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="overlay">
+      <div class="container alert-box">
+        <h1>Submission Confirmation</h1>
+        <p>Your submission is under the process of being sent.</p>
+        <div class="loading-spinner"></div>
+        <p>Please wait for a moment...</p>
+      </div>
+      <div class="container box-error">
+        <h1>Submission Failed</h1>
+        <p>Your submission failed.</p>
+        <p class="error_box_text"></p>
+        <button class="cancel_box">Cancel</button>
+      </div>
+      <div class="container box-success">
+        <h1>Submission Successfully</h1>
+        <p><i class="bx bx-check-circle"></i></p>
+        <p class="error_box_text"></p>
+        <button class="cancel_box cancel_succes_box">Cancel</button>
+      </div>
+    </section>
+    <section class="footer" id="contact us">
+      <i class="fa fa-copyright" aria-hidden="true"></i> 2025 Bliss Resort.
+      All rights reserved
+      <div class="contacts">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:info@bliss.co.ke " class="email">EMAIL US </a>
+        <br />
+        <i class="fas fa-phone"></i>
+        <a href="tel:0115614567" class="phone">Call us</a>
+        <br />
+        <i class="fas fa-phone"></i>
+        <a href="tel:0115413496" class="phone">second line</a>
+      </div>
+    </section>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
+
